@@ -10,7 +10,7 @@ function Appbar() {
   return (
     <Navbar bg="dark" expand="lg" variant='dark'>
       <Container fluid>
-        <Navbar.Brand href="#"> <img src={netflix_logo} height="45px"></img> </Navbar.Brand>
+        <Navbar.Brand href="#"> <img src={netflix_logo} height="45px"/> </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
